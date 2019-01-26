@@ -1,15 +1,15 @@
 # tf-pose-estimation
 
 'Openpose' for human pose estimation have been implemented using Tensorflow. It also provides several variants that have made some changes to the network structure for **real-time processing on the CPU or low-power embedded devices.**
-# hua
+# hua ----
 1，conda    for python  
 2，git      for git，sh，bash  
 3. wget    单个文件放在系统路径里面
 4. swig     添加系统路径，  
 
-5 pip install slidingwindow
+5. pip install slidingwindow
 
-5. conda 中 执行：
+6. conda 中 执行：
   tf_pose/pafprocess
   swig -python -c++ pafprocess.i && python setup.py build_ext --inplace
 $ git clone https://www.github.com/ildoonet/tf-openpose
@@ -45,7 +45,7 @@ Implemented features are listed here : [features](./etcs/feature.md)
 You need dependencies below.
 
 - python3
-- tensorflow 1.4.1+
+- tensorflow 1.4.1+(pip install tensorflow-gpu==1.11)
 - opencv3, protobuf, python3-tk
 
 ### Opensources
@@ -68,7 +68,7 @@ $ pip3 install -r requirements.txt
 Build c++ library for post processing. See : https://github.com/ildoonet/tf-pose-estimation/tree/master/tf_pose/pafprocess
 ```
 $ cd tf_pose/pafprocess
-$ swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
+$ swig -python -c++ pafprocess.i && python setup.py build_ext --inplace
 ```
 
 ### Package Install
@@ -123,6 +123,7 @@ CMU's model graphs are too large for git, so I uploaded them on an external clou
 ```
 $ cd models/graph/cmu
 $ bash download.sh
+$ sh ./download.sh
 ```
 
 ### Inference Time
