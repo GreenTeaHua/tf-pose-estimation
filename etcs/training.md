@@ -5,7 +5,7 @@
 You should download COCO Dataset from http://cocodataset.org/#download
 
 Also, you need to install cocoapi for easy parsing : https://github.com/cocodataset/cocoapi
-
+对于win10，需要按照一个修改版。
 
 ```
 $ git clone https://github.com/cocodataset/cocoapi
