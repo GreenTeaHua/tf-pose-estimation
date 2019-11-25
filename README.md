@@ -13,7 +13,7 @@ https://github.com/GreenTeaHua/tf-pose-estimation
   swig -python -c++ pafprocess.i 
   python setup.py build_ext --inplace  
 $ git clone https://www.github.com/ildoonet/tf-openpose  
-$ cd tf-openpose  
+$  cd tf-openpose  
 $ python setup.py install  
 python -c ''import tf_pose; tf_pose.infer(image="./images/p1.jpg")''  
 
@@ -22,7 +22,7 @@ python -c ''import tf_pose; tf_pose.infer(image="./images/p1.jpg")''
 pip uninstall protobuf      
 pip install -U protobuf  
 # hua end ------------------------------       
-**You can even run this on your macbook with descent FPS!**
+**You can even run this on your macbook with descent FPS!**  
 
 Original Repo(Caffe) : https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
