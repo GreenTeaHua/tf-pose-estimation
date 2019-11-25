@@ -13,8 +13,8 @@ https://github.com/GreenTeaHua/tf-pose-estimation
   swig -python -c++ pafprocess.i 
   python setup.py build_ext --inplace  
 $ git clone https://www.github.com/ildoonet/tf-openpose  
-$  cd tf-openpose  
-$ python setup.py install  
+$ cd tf-openpose       
+$ python setup.py install     
 python -c ''import tf_pose; tf_pose.infer(image="./images/p1.jpg")''  
 
 7 tf出错：TypeError: __new__() got an unexpected keyword argument 'serialized_options'  
